@@ -1,6 +1,6 @@
 
-let main = new Router(4);
-console.log(main.Execution);
+let main = new requestsAssociate(4);
+main.handleRequest(1);
 main.handleRequest(1);
 main.handleRequest(2);
 main.handleRequest(3);
